@@ -57,8 +57,8 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     print('Contact below address for get premium script')
-    print(f'{lg}Version: {w}2.0{lg} | GitHub: {w}@saifalisew1508{n}')
-    print(f'{lg}Telegram: {w}@DearSaif{lg} | Instagram: {w}@_Prince.Babu_{n}')
+    print(f'{lg}Version: {w}2.0{lg} | GitHub: {w}@GARUD_OWNER{n}')
+    print(f'{lg}Telegram: {w}@DGARUD_OWNER{lg} | Instagram: {w}@_Prince.Babu_{n}')
 
 # Function to clear screen
 def clr():
@@ -116,7 +116,7 @@ def exit_window():
 # Function to send message using all accounts
 def send_message_all_accounts():
     message = input(f'\n{lg} [~] Enter the message to send: {r}')
-    promotional_message = "This message was sent using mass DM tool GitHub.com/saifalisew1508/Telegram-Members-Adder"
+    promotional_message = "This message was sent using mass DM tool GitHub.com/FantasticSukhi/Member-Adder"
     full_message = f"{message}\n\n{promotional_message}"
     for account in accounts:
         phone = str(account[0])
