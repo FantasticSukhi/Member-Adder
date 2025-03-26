@@ -35,8 +35,8 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     print('Contact below address for get premium script')
-    print(f'{lg}Version: {w}2.6.82{lg} | GitHub: {w}@saifalisew1508{n}')
-    print(f'{lg}Telegram: {w}@DearSaif{lg} | Instagram: {w}www.instagram.com/saifaliopp{n}')
+    print(f'{lg}Version: {w}2.6.82{lg} | GitHub: {w}@garud_owner{n}')
+    print(f'{lg}Telegram: {w}@GARUD_OWNER{lg} | Instagram: {w}www.instagram.com/saifaliopp{n}')
 
 def clr():
     if os.name == 'nt':
@@ -143,8 +143,8 @@ def update_script():
             else:
                 os.system('rm add.py')
                 os.system('rm manager.py')
-            os.system('curl -l -O https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/add.py')
-            os.system('curl -l -O https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/manager.py')
+            os.system('curl -l -O https://raw.githubusercontent.com/FantasticSukhi/Member-Adder/main/add.py')
+            os.system('curl -l -O https://raw.githubusercontent.com/FantasticSukhi/Member-Adder/main/manager.py')
             print(f'{lg}[*] Updated to version: {version.text}')
             input('Press enter to exit...')
             exit()
